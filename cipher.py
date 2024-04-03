@@ -8,7 +8,7 @@ print("You entered: " + phrase)
 # Provide alphabet for code
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 new_phrase = ""
-
+# Right shift 5 for input phrase
 for i in range(0, len(phrase)):
     try: 
         char = phrase[i]
